@@ -266,7 +266,7 @@ section {
   border: rgb(255, 255, 255) 0.1rem solid;
 }
 .btn-container {
-  gap: 1rem;
+  gap: auto;
 }
 
 /* ABOUT SECTION */
@@ -353,8 +353,7 @@ section {
 article {
   display: flex;
   width: 10rem;
-  justify-content: space-around;
-  gap: 0.5rem;
+  gap: 1px;
 }
 
 article .icon {
@@ -373,7 +372,7 @@ article .icon {
 }
 
 .project-img {
-  border-radius: 2rem;
+  border-radius: 1rem;
   width: 90%;
   height: 90%;
 }
